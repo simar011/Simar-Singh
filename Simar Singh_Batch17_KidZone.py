@@ -1,0 +1,13 @@
+#KidZone Project
+print("Welcome to KidsZone")
+age = input("Enter the Kid age : ")
+print(age)
+print(type(age))
+print("Convert the string to number use int() method")
+age_in_text= int(age)
+print(age_in_text)
+print(type(age_in_text))
+print("Convert the number to string use str() method")
+age_in_number= str(age_in_text)
+print(age_in_number)
+print(type(age_in_number))
